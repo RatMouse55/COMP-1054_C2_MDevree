@@ -1,0 +1,27 @@
+ul :nth-child(odd) {
+    font-weight: bold;
+}
+/* set wrapper to 80% of the viewport */
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f6f1f1;
+    border: 1px solid #ccc;
+}
+
+.wrapper * :not(p) {
+    color: #333;
+}
+/* center header and make it 90% of wrapper */
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+img {
+    width: 25%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px #696969) brightness(115%);
+}
+main {
+    background-image: linear-gradient(to top, #3072d6, #4a87d6, #90cafa);
+}
